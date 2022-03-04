@@ -19,6 +19,6 @@ const selectedSongReducer = (selectedSong = null, action) => {
 }
 
 export default combineReducers({
-    songs: songsReducer,
+    songs: songsReducer, // the key provided here will appear as the state variable used in other components
     selectedSong: selectedSongReducer
 })
